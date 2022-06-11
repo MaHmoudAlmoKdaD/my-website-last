@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <title>Mahmoud Almekdad</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#top">
+                <h1>Mahmoud Almekdad</h1>
+            </a>
+        </div>
+        <ul class="navigation" id="navigation">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu">
+            <i class="fa fa-bars" id="menuButton" onclick="menuClicked()"></i>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="info" id="info">
+            <h2>Hello, I'm Mahmoud<br><span>Web Developer</span></h2>
+            <p>with a License Technical in software engineering (LT Degree), particularly in
+                JavaScript and NodeJs and some of their frameworks like ExpressJS, ReactJS and also I have
+                some experience with Laravel and Python for Web Scraping. I believe there is no one tool
+                for the job, and I am always looking forward to learn something new.</p>
+            <a href="#projects" class="main-btn">View my simple projects</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mahmoudalmokdad/" target="_blank">
+                    <i class="fab fa-linkedin icon"></i>
+                </a>
+                <a href="https://twitter.com/MahmouDHZY" target="_blank">
+                    <i class="fab fa-twitter icon"></i>
+                </a>
+                <a href="https://www.instagram.com/mahmoud_mokd/" target="_blank">
+                    <i class="fab fa-instagram icon"></i>
+                </a>
+                <a href="https://github.com/MaHmoudAlmoKdaD/" target="_blank">
+                    <i class="fab fa-github icon" ></i>
+                </a>
+            </div>
+        </div>
+        <div><img src="./assets/images/background.svg" alt="" ></div>
+    </section>
+
+    <section class="cards" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/sass.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>HTML, CSS, Sass</h3>
+                    <!-- <p>It is from my best frameworks I can handle with everything like API, Hooks, and Redux</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/react.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>ReactJS</h3>
+                    <p>It is from my best frameworks I can handle with everything like API, Hooks, and Redux Toolkit</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/python.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Python</h3>
+                    <p>Web scraping and Flask framework</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/node.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>NodeJS</h3>
+                    <p>I can create REST API with NodeJS with <strong>Express </strong> framework, authentication and authorisation</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/sql.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>SQL, MongoDB No Sql😁</h3>
+                    <p>I can handle with SQL queries like: <strong>Oracle</strong> SQL and  <strong>MySql</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./assets/images/laravel.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Laravel</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/images/weather.gif" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">
+                        Get all the <strong>forecast weathers</strong> in the world's cities
+                    </p>
+                    <strong class="project-title">
+                        <span>ReactJS, API</span>
+                        <a href="https://github.com/MaHmoudAlmoKdaD/Weather-API" 
+                           class="more-details">Source Code
+                        </a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/images/notaty.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">
+                        <strong>Notaty</strong>
+                        app<br> you can add,<br> delete, update your notes
+                    </p>
+                    <strong class="project-title">
+                        <span>MERN Stack</span>
+                        <a href="https://github.com/MaHmoudAlmoKdaD/Notaty" class="more-details">Source Code</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/images/spotify.PNG" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">
+                        <strong>Spotify</strong>
+                        app you can search and get your artist you
+                        searched about, and get all the albums he had, and listen to it.
+                    </p>
+                    <strong class="project-title">
+                        <span>ReactJS</span>
+                        <a href="https://github.com/MaHmoudAlmoKdaD/Spotify-API" class="more-details">Source Code</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/images/restAPINode.PNG" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">
+                        <strong>E-Commerce, Back-end REST API</strong>
+                        Back-End of E-Commerce app with Stripe Payment method, Depends NodeJS, Express MongoDB. Just you
+                        need to clone it and do your Front-End as you like.
+                    </p>
+                    <strong class="project-title">
+                        <span>NodeJS, Express</span>
+                        <a href="https://github.com/MaHmoudAlmoKdaD/E-Commerce-Back-End" class="more-details">Source
+                            Code
+                        </a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card" style="width: 400px;height: 300px;">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>mahmoudalmokdadtech@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="footer" id="contact">
+        <p class="footer-title">Copyrights @ <span>Mahmoud Almekdad</span></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mahmoudalmokdad/" target="_blank">
+                <i class="fab fa-linkedin "></i>
+            </a>
+            <a href="https://twitter.com/MahmouDHZY" target="_blank">
+                <i class="fab fa-twitter "></i>
+            </a>
+            <a href="https://www.instagram.com/mahmoud_mokd/" target="_blank">
+                <i class="fab fa-instagram "></i>
+            </a>
+            <a href="https://github.com/MaHmoudAlmoKdaD/" target="_blank">
+                <i class="fab fa-github " ></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>
